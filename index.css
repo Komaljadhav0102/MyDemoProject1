@@ -1,0 +1,23 @@
+.row {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    height: 100vh;
+}
+
+.column1 {
+    height: 100%;
+    background-color: blue;
+  }
+
+  .column2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    background-color: yellow;
+  }
+
+.row1{
+
+background-color: red;
+
+}
